@@ -1,9 +1,9 @@
-bool is_string_palindrome(string str)
+ bool isPalindrome(const std::string & text)
 {
     // Add your code below this line. Do not modify any other code.
-    for(int i=0; i<str.size(); i++)
+    for(int i=0; i<text.size(); i++)
     {
-        if(str[i] != str[str.size()-i-1])
+        if(text[i] != text[text.size()-i-1])
             return false;
     }      
     return true;
