@@ -1,0 +1,97 @@
+  268  cd coders/
+  269  git init coders
+  270  touch processes.txt
+  271  ps aux > processes.txt
+  272  cat processes.txt 
+  273  cp processes.txt copy.txt
+  274  cat copy.txt
+  275  ls
+  276  mkdir kopia
+  277  ls
+  278  mv copy.txt kopia
+  279  ls
+  280  cd kopia 
+  281  ls
+  282  cd ..
+  283  wc -l >> copy.txt
+  284  ls
+  285  cd kopia
+  286  ls
+  287  wc -l >> copy.txt
+  288  cat copy.txt
+  289  wc -l copy.txt
+  290  wc -l >> copy.txt
+  291  cat copy.txt
+  292  wc -l >> copy.txt
+  293  wc -l copy.txt >> copy.txt
+  294  cat copy.txt
+  295  grep -rni --color /bin
+  296  grep -rni --color /bin >> copy.txt
+  297  grep -rni --color /bin >> copy2.txt
+  298  grep  --color /bin copy.txt >> copy2.txt 
+  299  cat copy2.txt
+  300  copy2.txt >> copy.txt
+  301  grep -n --color /bin copy.txt >> copy2.txt 
+  302  cat copy2.txt
+  303  grep -n --color /bin copy.txt >> copy.txt 
+  304  cat copy.txt copy2.txt
+  305  cat copy.txt copy2.txt > copy.txt
+  306  cat copy.txt
+  307  cd ..
+  308  ls
+  309  cat copy.txt
+  310  rm copy.txt
+  311  ls
+  312  cat processes.txt
+  313  cp processes.txt copy.txt
+  314  mv copy.txt kopia
+  315  ls
+  316  cd kopia
+  317  ls
+  318  cat copy.txt
+  319  wc -l copy.txt >> copy.txt
+  320  cat copy.txt
+  321  grep -rni --color /bin copy.txt >> copy.txt 
+  322  grep -rni --color /bin copy.txt >> ../copy.txt 
+  323  cd ..
+  324  ls
+  325  cat copy.txt
+  326  cd kopia
+  327  ls
+  328  rm copy2.txt
+  329  cat copy.txt
+  330  cp copy.txt cop2.txt
+  331  mv cop2.txt ../
+  332  ls
+  333  cd ..
+  334  ls
+  335  cat copy.txt cop2.txt cop.txt 
+  336  cat copy.txt cop2.txt > cop.txt 
+  337  ls
+  338  cat cop.txt
+  339  rm cop.txt
+  340  ls
+  341  cat cop2.txt copy.txt > cop.txt 
+  342  cat cop.txt
+  343  ls
+  344  rm cop2.txt copy.txt
+  345  ls
+  346  cp cop.txt copy.txt
+  347  mv copy.txt kopia
+  348  ls
+  349  cd kopia
+  350  ls
+  351  cat copy.txt
+  352  cd ..
+  353  rm cop.txt
+  354  ls
+  355  history
+  356  tail -88 history > commands.txt
+  357  history > commands.txt
+  358  cat commands.txt
+  359  tail -88 commands.txt > commands.txt
+  360  cat commands.txt
+  361  history | tail -88
+  362  history | tail -93 > commands.txt
+  363  cat commands.txt 
+  364  history | tail -97 > commands.txt
